@@ -1,0 +1,56 @@
+<div xmlns:th="http://www.thymeleaf.org" th:replace="~{/user/home/layout :: dynamic (~{::main})}">
+
+<main class="main">
+	<article class="about-company wrapper">
+		<div class="about-company__top">
+			<h2 class="about-company__title">Giới thiệu về công ty</h2>
+			<p class="about-company__text">Đại diện chính thức của thương hiệu mỹ phẩm GLASSY.ZONE nổi tiếng thế giới
+				tại thế giới.</p>
+		</div>
+		<div class="about-company__cols">
+			<div class="about-company__col">
+				<section class="about-section">
+					<h3 class="about-section__title">Sự khởi đầu của cuộc hành trình của chúng tôi</h3>
+					<span class="about-section__year">2020</span>
+					<p class="about-section__text">
+						Năm 2020, công ty chúng tôi kỷ niệm 5 năm thành lập - đây là những năm tích lũy kinh nghiệm kinh doanh
+						trên khắp thế giới. <br> Tham gia với chúng tôi trong số các khách hàng của chúng tôi! Bạn chỉ có
+						thể mua những thứ ban đầu từ chúng tôi. Chúng tôi cung cấp các sản phẩm của các thương hiệu yêu thích
+						của bạn - các sản phẩm chất lượng cho mọi sở thích và lứa tuổi từ Châu Âu - Châu Á.
+					</p>
+				</section>
+			</div>
+			<div class="about-company__col">
+				<div class="about-stats">
+					<h3 class="collection-title">
+						<span class="collection-title__count">500</span>
+						<span class="collection-title__plus">+</span>
+						<span class="collection-title__text">
+							<th:block th:text="#{user.prodfyou}"></th:block>
+						</span>
+					</h3>
+					<img class="about-stats__vector" data-lazy="/user/assets/img/svg/vector-about.svg">
+				</div>
+			</div>
+			<div class="about-company__col">
+				<div class="about-stats about-stats_bottom">
+					<h3 class="collection-title">
+						<span class="collection-title__count">100</span>
+						<span class="collection-title__plus">+</span>
+						<span class="collection-title__text">
+							<th:block th:text="#{user.clients}"></th:block>
+						</span>
+					</h3>
+					<img class="about-stats__vector" data-lazy="/user/assets/img/svg/vector-about.svg">
+				</div>
+			</div>
+			<div class="about-company__col">
+				<section class="about-section">
+					
+				</section>
+			</div>
+		</div>
+	</article>
+
+	
+</main>
